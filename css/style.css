@@ -161,12 +161,16 @@ img {
 
 }
 
-.hero-container {
-    padding: 200px 252px 200px 252px;
-
+.heto-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
+
 .hero-title {
+    margin-bottom: 30px;
+    width: 696px;
+    margin: 0 auto;
     margin-bottom: 30px;
 
     color: #FFFFFF;
@@ -283,12 +287,10 @@ img {
     background-color: #FFFFFF;
 }
 
-.avatar img {
-    margin-bottom: 30px;
-}
 
 .card-title {
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .avatar h3 {
@@ -298,20 +300,20 @@ img {
 }
 
 .avatar p {
-    margin-bottom: 30px;
-
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     color: var(--secondary-color);
 }
 
+.avatar div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 /* підвал */
 
-.footer {
-    padding: 60px;
-}
 
 .footer .logo-icon .logo-title {
     display: inline-block;
@@ -380,8 +382,7 @@ img {
 }
 
 .button-control {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 22px;
     background-color: var(--background-botton);
     color: var(--main-color);
 
@@ -473,6 +474,7 @@ img {
 /* підвал */
 
 .footer {
-    padding-bottom: 60px;
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
